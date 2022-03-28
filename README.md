@@ -4,7 +4,7 @@
 
 Submitted by: Jainee Shah
 
-Time spent: 4 hours spent in total
+Time spent: 5 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/thirsty-shrouded-paprika
 
