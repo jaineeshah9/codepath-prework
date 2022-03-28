@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-
+![codepath](https://user-images.githubusercontent.com/95950518/160331223-c6d9cd71-c5bf-4fad-ac34-554aae17cb59.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
