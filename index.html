@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons.
+    </p>
+    <p id="mistakesCount">
+      Mistakes Count: 0
+    </p>
+    <p >
+      Time Left: <span id="timeLeft">1:00</span> min
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"
+><img src="https://cdn.glitch.global/3040a51e-0944-4d18-87e6-72a5fcb16284/frog.png?v=1648432433410"/></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"
+><img src="https://cdn.glitch.global/3040a51e-0944-4d18-87e6-72a5fcb16284/elephant.png?v=1648433375659"/></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"
+><img src="https://cdn.glitch.global/3040a51e-0944-4d18-87e6-72a5fcb16284/piggy.jpg?v=1648433461576"/></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"
+><img src="https://cdn.glitch.global/3040a51e-0944-4d18-87e6-72a5fcb16284/lion.jpg?v=1648435349689"/></button>
+    </div>
+  </body>
+</html>
