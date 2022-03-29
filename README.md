@@ -62,8 +62,7 @@ I would also allow the user to add sounds they like and randomize the sounds ass
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
-
+https://youtu.be/-lZuAJlo4zQ
 
 ## License
 
